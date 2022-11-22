@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-
-import { Entry } from "./pages/entry/Entry.page";
+import Entry  from "./pages/entry/Entry.js";
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <div className="App">
+      <Entry/>
+    </div>
   );
 }
 
